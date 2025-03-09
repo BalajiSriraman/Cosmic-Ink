@@ -1,0 +1,67 @@
+{
+  "name": "cosmic-ink-theme",
+  "publisher": "balaji-sriraman",
+  "author": "Balaji Sriraman <contact@balajisriraman.in> (https://balajisriraman.in)",
+  "displayName": "Cosmic Ink Theme",
+  "version": "2.0.4",
+  "description": "An mixed and super opinionated theme for Visual Studio Code.",
+  "galleryBanner": {
+    "color": "#31364A",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "material theme",
+    "material",
+    "palenight",
+    "dark",
+    "github",
+    "dark-palenight"
+  ],
+  "repository": {
+    "url": "https://github.com/whizkydee/vscode-palenight-theme",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/whizkydee/vscode-palenight-theme/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "build": "vsce package"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Palenight Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-operator.json"
+      },
+      {
+        "label": "Palenight Github Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-default.json"
+      },
+      {
+        "label": "GitHub Dark Palenight Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark-palenight-operator.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "vsce": "^1.88.0"
+  },
+  "__metadata": {
+    "publisherDisplayName": "Balaji"
+  },
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
+}
