@@ -1,17 +1,17 @@
 {
   "name": "cosmic-ink-theme",
-  "publisher": "balaji-sriraman",
+  "publisher": "BalajiSriraman",
   "author": "Balaji Sriraman <contact@balajisriraman.in> (https://balajisriraman.in)",
   "displayName": "Cosmic Ink Theme",
-  "version": "2.0.4",
-  "description": "An mixed and super opinionated theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "description": "A mixed and super opinionated theme for Visual Studio Code.",
   "galleryBanner": {
     "color": "#31364A",
     "theme": "dark"
   },
   "icon": "icon.png",
   "keywords": [
-    "material theme",
+    "material-theme",
     "material",
     "palenight",
     "dark",
@@ -19,11 +19,11 @@
     "dark-palenight"
   ],
   "repository": {
-    "url": "https://github.com/whizkydee/vscode-palenight-theme",
+    "url": "https://github.com/BalajiSriraman/Cosmic-Ink.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/whizkydee/vscode-palenight-theme/issues"
+    "url": "https://github.com/BalajiSriraman/Cosmic-Ink.git/issues"
   },
   "license": "MIT",
   "engines": {
@@ -35,6 +35,9 @@
   },
   "categories": [
     "Themes",
+    "Education",
+    "Extension Packs",
+    "Visualization",
     "Other"
   ],
   "contributes": {
