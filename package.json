@@ -3,7 +3,7 @@
   "publisher": "BalajiSriraman",
   "author": "Balaji Sriraman <contact@balajisriraman.in> (https://balajisriraman.in)",
   "displayName": "Cosmic Ink Theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A mixed and super opinionated theme for Visual Studio Code.",
   "galleryBanner": {
     "color": "#31364A",
@@ -30,7 +30,7 @@
     "vscode": "^1.12.0"
   },
   "scripts": {
-    "start": "nodemon --exec vsce package",
+    "dev": "nodemon --exec vsce package",
     "build": "vsce package"
   },
   "categories": [
